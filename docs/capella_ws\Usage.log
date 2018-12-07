@@ -1,0 +1,14 @@
+2018-11-30 14:34:01,569;Capella;1.2.1.201806011020;Open+Session;RPi-Jukebox-RFID.aird;;
+2018-11-30 14:34:03,644;Capella;1.2.1.201806011020;Open+Session;RPi-Jukebox-RFID.aird;OK;
+2018-11-30 14:36:47,762;Capella;1.2.1.201806011020;Create+Representation;Physical+Component+Breakdown;;92a47bb5-9410-4dd0-b456-16ee36fbb5e5
+2018-11-30 14:36:50,564;Capella;1.2.1.201806011020;Create+Representation;Physical+Component+Breakdown;OK;92a47bb5-9410-4dd0-b456-16ee36fbb5e5
+2018-11-30 14:38:27,299;Capella;1.2.1.201806011020;Close+Session;RPi-Jukebox-RFID.aird;;
+2018-11-30 14:38:27,500;Capella;1.2.1.201806011020;Close+Session;RPi-Jukebox-RFID.aird;OK;
+2018-11-30 14:39:01,155;Capella;1.2.1.201806011020;Open+Session;RPi-Jukebox-RFID.aird;;
+2018-11-30 14:39:03,184;Capella;1.2.1.201806011020;Open+Session;RPi-Jukebox-RFID.aird;OK;
+2018-11-30 14:40:08,492;Capella;1.2.1.201806011020;Create+Representation;Physical+Component+Breakdown;;0980eb53-7d02-40c0-9e3a-2a4e6aa0a0f7
+2018-11-30 14:40:11,888;Capella;1.2.1.201806011020;Create+Representation;Physical+Component+Breakdown;OK;0980eb53-7d02-40c0-9e3a-2a4e6aa0a0f7
+2018-11-30 14:42:40,175;Capella;1.2.1.201806011020;Create+Representation;Logical+Architecture+Blank;;75d93d4e-bf21-4f6a-86ef-59485033408c
+2018-11-30 14:42:42,444;Capella;1.2.1.201806011020;Create+Representation;Logical+Architecture+Blank;OK;75d93d4e-bf21-4f6a-86ef-59485033408c
+2018-12-05 20:22:37,017;Capella;1.2.1.201806011020;Validation;;;
+2018-12-05 20:22:37,128;Capella;1.2.1.201806011020;Validation;;OK;
