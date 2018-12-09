@@ -477,10 +477,10 @@ sudo chmod +x /home/pi/RPi-Jukebox-RFID/scripts/*.py
 # -rw-r--r-- 1 root root  304 Apr 30 10:07 phoniebox-rfid-reader.service
 # 1. delete old services (this is legacy, might throw errors but is necessary. Valid for versions < 1.1.8-beta)
 echo "### Deleting older versions of service daemons. This might throw errors, ignore them"
-sudo systemctl disable idle-watchdog
-sudo systemctl disable rfid-reader
-sudo systemctl disable startup-sound
-sudo systemctl disable gpio
+sudo systemctl disable phoniebox-idle-watchdog
+sudo systemctl disable phoniebox-rfid-reader
+sudo systemctl disable phoniebox-startup-sound
+sudo systemctl disable phoniebox-gpio
 sudo rm /etc/systemd/system/rfid-reader.service 
 sudo rm /etc/systemd/system/startup-sound.service
 sudo rm /etc/systemd/system/gpio.service
