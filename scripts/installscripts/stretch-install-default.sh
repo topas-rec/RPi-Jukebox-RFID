@@ -391,7 +391,7 @@ sudo apt-get install apt-transport-https samba samba-common-bin python-dev pytho
 
 # Get github code
 cd /home/pi/
-git clone https://github.com/MiczFlor/RPi-Jukebox-RFID.git
+git clone https://github.com/topas-rec/RPi-Jukebox-RFID.git
 # the following three lines are needed as long as this is not the master branch:
 cd RPi-Jukebox-RFID
 git fetch
@@ -466,8 +466,8 @@ sudo service lighttpd force-reload
 sudo service php7.0-fpm restart
 
 # create copy of GPIO script
-sudo cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs/gpio-buttons.py.sample /home/pi/RPi-Jukebox-RFID/scripts/gpio-buttons.py
-sudo chmod +x /home/pi/RPi-Jukebox-RFID/scripts/gpio-buttons.py
+sudo cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs/gpio.py.sample /home/pi/RPi-Jukebox-RFID/scripts/gpio.py
+sudo chmod +x /home/pi/RPi-Jukebox-RFID/scripts/gpio.py
 
 # make sure bash scripts have the right settings
 sudo chown pi:www-data /home/pi/RPi-Jukebox-RFID/scripts/*.sh
@@ -482,30 +482,30 @@ echo "### Deleting older versions of service daemons. This might throw errors, i
 sudo systemctl disable idle-watchdog
 sudo systemctl disable rfid-reader
 sudo systemctl disable startup-sound
-sudo systemctl disable gpio-buttons
+sudo systemctl disable gpio
 sudo rm /etc/systemd/system/rfid-reader.service 
 sudo rm /etc/systemd/system/startup-sound.service
-sudo rm /etc/systemd/system/gpio-buttons.service
+sudo rm /etc/systemd/system/gpio.service
 sudo rm /etc/systemd/system/idle-watchdog.service
 echo "### Done with erasing old daemons. Stop ignoring errors!" 
 # 2. install new ones - this is version > 1.1.8-beta
 sudo cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs/phoniebox-rfid-reader.service.stretch-default.sample /etc/systemd/system/phoniebox-rfid-reader.service 
 sudo cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs/phoniebox-startup-sound.service.stretch-default.sample /etc/systemd/system/phoniebox-startup-sound.service
-sudo cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs/phoniebox-gpio-buttons.service.stretch-default.sample /etc/systemd/system/phoniebox-gpio-buttons.service
+sudo cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs/phoniebox-gpio.service.stretch-default.sample /etc/systemd/system/phoniebox-gpio.service
 sudo cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs/phoniebox-idle-watchdog.service.sample /etc/systemd/system/phoniebox-idle-watchdog.service
 sudo chown root:root /etc/systemd/system/phoniebox-rfid-reader.service
 sudo chown root:root /etc/systemd/system/phoniebox-startup-sound.service
-sudo chown root:root /etc/systemd/system/phoniebox-gpio-buttons.service
+sudo chown root:root /etc/systemd/system/phoniebox-gpio.service
 sudo chown root:root /etc/systemd/system/phoniebox-idle-watchdog.service
 sudo chmod 644 /etc/systemd/system/phoniebox-rfid-reader.service
 sudo chmod 644 /etc/systemd/system/phoniebox-startup-sound.service
-sudo chmod 644 /etc/systemd/system/phoniebox-gpio-buttons.service
+sudo chmod 644 /etc/systemd/system/phoniebox-gpio.service
 sudo chmod 644 /etc/systemd/system/phoniebox-idle-watchdog.service
 # enable the services needed
 sudo systemctl enable phoniebox-idle-watchdog
 sudo systemctl enable phoniebox-rfid-reader
 sudo systemctl enable phoniebox-startup-sound
-sudo systemctl enable phoniebox-gpio-buttons
+sudo systemctl enable phoniebox-gpio
 
 # copy mp3s for startup and shutdown sound to the right folder
 cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs/startupsound.mp3.sample /home/pi/RPi-Jukebox-RFID/shared/startupsound.mp3
@@ -614,7 +614,7 @@ then
     if [ $EXISTINGuseGpio == "YES" ]
     then
         # copy from backup to new install
-        mv /home/pi/BACKUP/scripts/gpio-buttons.py /home/pi/RPi-Jukebox-RFID/scripts/gpio-buttons.py
+        mv /home/pi/BACKUP/scripts/gpio-buttons.py /home/pi/RPi-Jukebox-RFID/scripts/gpio.py
     fi
     
     # Sound effects: use existing startup / shutdown sounds
