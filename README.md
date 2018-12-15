@@ -130,6 +130,9 @@ I also want to link to two proprietary and commercial projects, because they als
 Here is a list of equipment needed. Chances are that you will find most of it in the back of your drawers or at the bottom of some shoe box. Well, most of it, possibly not the RFID reader itself.
 
 * **Has to be returned** [USB Stereo Speaker Set (6 Watt, 3,5mm jack, USB-powered) black](https://www.notebooksbilliger.de/trust+leto+20+speaker+set+black/?nbb=pla.google_&wt_cc2=902-0001_Hardware_253868&gclid=EAIaIQobChMIzoaZ9J763gIVyqSaCh1hKAV1EAQYASABEgLAY_D_BwE) | This USB powered speaker set sounds good for its size, is good value for money and keeps this RPi project clean and without the need of a soldering iron :)
+* Switch to disconnect power consumers from power pack
+* Switch for switching off power for amplifier (for using headphones only)
+* **payed** Y audio cable for headphone outlet
 * **obtained** Speaker cables
 * **obtained** sd card
 * **obtained** [raspberry pi 3 model b ](http://amzn.to/2ku0pu7) | you might be surprised how easy and affordable you can get an rpi second hand. think about the planet before you buy a new one.
@@ -146,9 +149,7 @@ Here is a list of equipment needed. Chances are that you will find most of it in
 * **obtained** Power bank (<https://www.reichelt.de/powerbank-li-po-20800-mah-usb-ans-pb-20800-p195298.html?>)
 * **included in RFID reader** Five RFID tags
 * **included in button** One led
-* **postponed** Switch to disconnect power consumers from power pack
-* **postponed** USB charging outlet
-* **postponed** Headphone connector?
+* **obtained** USB charging outlet
 
 ### Special hardware
 
