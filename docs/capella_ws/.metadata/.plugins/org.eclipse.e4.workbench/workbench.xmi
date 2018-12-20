@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Rut00PSkEeiwm6pHHbbOGg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_Rut00fSkEeiwm6pHHbbOGg" bindingContexts="_Rut01_SkEeiwm6pHHbbOGg">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;[LAB] Logical System.jpg&quot; tooltip=&quot;RPi-Jukebox-RFID/[LAB] Logical System.jpg&quot;>&#xA;&lt;persistable path=&quot;/RPi-Jukebox-RFID/[LAB] Logical System.jpg&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.amalgam.explorer.activity.ui.internal.ActivityExplorerEditorInputFactory&quot; id=&quot;org.eclipse.amalgam.explorer.activity.ui.editor.activityExplorerEditor&quot; name=&quot;RPi-Jukebox-RFID&quot; tooltip=&quot;RPi-Jukebox-RFID&quot;>&#xA;&lt;persistable activityExplorerFile=&quot;/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;[LAB] Logical System&quot; tooltip=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird/[LAB] Logical System&quot;>&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_z1U4UPSlEeiciLcbTcLtYQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;[LAB] Logical System&quot; uri=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_z1WGcfSlEeiciLcbTcLtYQ&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;[PCBD] Physical System&quot; tooltip=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird/[PCBD] Physical System&quot;>&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_dS3YAPSlEeiciLcbTcLtYQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;[PCBD] Physical System&quot; uri=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_dTLhEfSlEeiciLcbTcLtYQ&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;[LAB] Logical System&quot; tooltip=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird/[LAB] Logical System&quot;>&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_z1U4UPSlEeiciLcbTcLtYQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;[LAB] Logical System&quot; uri=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_z1WGcfSlEeiciLcbTcLtYQ&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;[LAB] Logical System.jpg&quot; tooltip=&quot;RPi-Jukebox-RFID/[LAB] Logical System.jpg&quot;>&#xA;&lt;persistable path=&quot;/RPi-Jukebox-RFID/[LAB] Logical System.jpg&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.amalgam.explorer.activity.ui.internal.ActivityExplorerEditorInputFactory&quot; id=&quot;org.eclipse.amalgam.explorer.activity.ui.editor.activityExplorerEditor&quot; name=&quot;RPi-Jukebox-RFID&quot; tooltip=&quot;RPi-Jukebox-RFID&quot;>&#xA;&lt;persistable activityExplorerFile=&quot;/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;[PCBD] Physical System&quot; tooltip=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird/[PCBD] Physical System&quot;>&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_dS3YAPSlEeiciLcbTcLtYQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;[PCBD] Physical System&quot; uri=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_dTLhEfSlEeiciLcbTcLtYQ&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.polarsys.capella.core.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_Rut00fSkEeiwm6pHHbbOGg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_SbBhMvSkEeiwm6pHHbbOGg" x="933" y="90" width="1024" height="768">
@@ -34,9 +34,10 @@
           <tags>persp.viewSC:org.polarsys.capella.core.ui.fastlinker.view</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_lHC3QPSrEeiciLcbTcLtYQ" selectedElement="_lHC3QvSrEeiciLcbTcLtYQ" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_lHC3QfSrEeiciLcbTcLtYQ" elementId="center" toBeRendered="false" containerData="9900"/>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_lHC3QvSrEeiciLcbTcLtYQ" containerData="100" selectedElement="_lHC3SPSrEeiciLcbTcLtYQ" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_lHC3QvSrEeiciLcbTcLtYQ" containerData="100" selectedElement="_lHC3Q_SrEeiciLcbTcLtYQ" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_lHC3Q_SrEeiciLcbTcLtYQ" containerData="2500" selectedElement="_lHC3RPSrEeiciLcbTcLtYQ">
                 <children xsi:type="basic:PartStack" xmi:id="_lHC3RPSrEeiciLcbTcLtYQ" elementId="topLeft" containerData="7142" selectedElement="_lHC3RfSrEeiciLcbTcLtYQ">
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_lHC3RfSrEeiciLcbTcLtYQ" elementId="capella.project.explorer" ref="_Seo14PSkEeiwm6pHHbbOGg"/>
                 </children>
                 <children xsi:type="basic:PartStack" xmi:id="_lHC3RvSrEeiciLcbTcLtYQ" elementId="bottomLeft" containerData="2858" selectedElement="_lHC3R_SrEeiciLcbTcLtYQ">
@@ -87,24 +88,20 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_SejWUPSkEeiwm6pHHbbOGg" elementId="org.eclipse.ui.editorss" selectedElement="_SejWUfSkEeiwm6pHHbbOGg">
-      <children xsi:type="basic:PartStack" xmi:id="_SejWUfSkEeiwm6pHHbbOGg" elementId="PartStack@1c30cb85" selectedElement="_z1c0IPSlEeiciLcbTcLtYQ">
+      <children xsi:type="basic:PartStack" xmi:id="_SejWUfSkEeiwm6pHHbbOGg" elementId="PartStack@1c30cb85" selectedElement="_xWEAEASJEemrufR1WRGx4w">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_TOiMUPSlEeiciLcbTcLtYQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RPi-Jukebox-RFID" iconURI="platform:/plugin/org.eclipse.amalgam.explorer.activity.ui/icons/full/obj16/menu-overview.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.amalgam.explorer.activity.ui.editor.activityExplorerEditor&quot; name=&quot;RPi-Jukebox-RFID&quot; partName=&quot;RPi-Jukebox-RFID&quot; title=&quot;RPi-Jukebox-RFID&quot; tooltip=&quot;RPi-Jukebox-RFID&quot;>&#xA;&lt;input activityExplorerFile=&quot;/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird&quot; factoryID=&quot;org.eclipse.amalgam.explorer.activity.ui.internal.ActivityExplorerEditorInputFactory&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.amalgam.explorer.activity.ui.editor.activityExplorerEditor</tags>
           <tags>removeOnHide</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_z1c0IPSlEeiciLcbTcLtYQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="[LAB] Logical System" iconURI="platform:/plugin/org.eclipse.sirius.diagram.ui/icons/DDiagram.gif" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_xWEAEASJEemrufR1WRGx4w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="[LAB] Logical System" iconURI="platform:/plugin/org.eclipse.sirius.diagram.ui/icons/DDiagram.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;[LAB] Logical System&quot; partName=&quot;[LAB] Logical System&quot; title=&quot;[LAB] Logical System&quot; tooltip=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird/[LAB] Logical System&quot;>&#xA;&lt;input REP_DESC_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_z1U4UPSlEeiciLcbTcLtYQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; name=&quot;[LAB] Logical System&quot; uri=&quot;platform:/resource/RPi-Jukebox-RFID/RPi-Jukebox-RFID.aird#_z1WGcfSlEeiciLcbTcLtYQ&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -114,6 +111,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Capella</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_Sftz8PSkEeiwm6pHHbbOGg" elementId="capella.project.explorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -175,7 +174,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Sb1ZgPSkEeiwm6pHHbbOGg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_90TU0PmFEeiHrr_wmNTq9Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_RvKg4PSkEeiwm6pHHbbOGg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_43DFQASJEemcL9PgdJL71g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_RvKg4PSkEeiwm6pHHbbOGg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Sb1ZgfSkEeiwm6pHHbbOGg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -193,7 +192,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Sb2AkPSkEeiwm6pHHbbOGg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_90XmQPmFEeiHrr_wmNTq9Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_RvJSvPSkEeiwm6pHHbbOGg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_43FhgQSJEemcL9PgdJL71g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_RvJSvPSkEeiwm6pHHbbOGg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Sb2AkfSkEeiwm6pHHbbOGg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

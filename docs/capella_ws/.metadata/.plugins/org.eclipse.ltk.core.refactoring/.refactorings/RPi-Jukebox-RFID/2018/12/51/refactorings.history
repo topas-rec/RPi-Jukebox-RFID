@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RPi-Jukebox-RFID/[LAB] Logical System2.jpg&apos; to &apos;[LAB] Logical System.jpg&apos;" description="Rename resource &apos;[LAB] Logical System2.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="[LAB] Logical System2.jpg" name="[LAB] Logical System.jpg" stamp="1545332626802" updateReferences="true"/>
+</session>
