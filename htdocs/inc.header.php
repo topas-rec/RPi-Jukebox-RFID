@@ -87,7 +87,11 @@ $conf['settings_abs'] = realpath(getcwd().'/../settings/');
 $Audio_Folders_Path = trim(file_get_contents($conf['settings_abs'].'/Audio_Folders_Path'));
 $Latest_Folder_Played = trim(file_get_contents($conf['settings_abs'].'/Latest_Folder_Played'));
 $Second_Swipe = trim(file_get_contents($conf['settings_abs'].'/Second_Swipe'));
-$ShowCover = trim(file_get_contents($conf['settings_abs'].'/ShowCover'));
+if(file_exists($conf['settings_abs'].'/ShowCover')) {
+    $ShowCover = trim(file_get_contents($conf['settings_abs'].'/ShowCover'));
+} else {
+    $ShowCover = "ON";
+}
 $version = trim(file_get_contents($conf['settings_abs'].'/version'));
 if(file_exists(dirname(__FILE__).'/../settings/edition')) {
     $edition = trim(file_get_contents(dirname(__FILE__).'/../settings/edition'));
@@ -329,6 +333,12 @@ if(isset($_POST['YTaudiofolder']) && $_POST['YTaudiofolder'] != "" && $_POST['YT
 if(isset($_POST['submit']) && $_POST['submit'] == "submit") {
     $post['submit'] = $_POST['submit'];
 }
+if(isset($_POST['delete']) && $_POST['delete'] == "delete") {
+    $post['delete'] = $_POST['delete'];
+}
+if(isset($_GET['delete']) && $_GET['delete'] == "delete") {
+    $post['delete'] = $_GET['delete'];
+}
 
 
 /*******************************************
@@ -525,7 +535,22 @@ if(isset($urlparams['enableresume']) && $urlparams['enableresume'] != "" && is_d
     } else { 
     // pass folder to resume script
     // escape whitespaces with backslashes
-    $exec = "/usr/bin/sudo ".$conf['scripts_abs']."/resume_play.sh -c=enableresume -d=".preg_replace('/\s+/', '\ ',$urlparams['enableresume']);
+    // SC added the following lines to make resume work again, changes affect the folder_string $urlparams['enableresume']
+    // Note: This will allow normal function of the resume button in the webinterface for folder s with brackets in their name.
+    // Brackets of type "(", ")", "[", "]" are supported as album names often apear in form of "albumname - (year) - albumtitle"
+    if($debug == "true") { 
+        print "original_enableresume=".$urlparams['enableresume'] . PHP_EOL;
+    }
+    $modified_enableresume = preg_replace('/\s+/', '\ ',$urlparams['enableresume']); // replace whitespaces with " "
+    $modified_enableresume = preg_replace('/\(/', '\(',$modified_enableresume); // replace "(" with with "\("
+    $modified_enableresume = preg_replace('/\)/', '\)',$modified_enableresume); // replace "(" with with "\)"
+    $modified_enableresume = preg_replace('/\[/', '\[',$modified_enableresume); // replace "(" with with "\["
+    $modified_enableresume = preg_replace('/\]/', '\]',$modified_enableresume); // replace "(" with with "\]"
+    if($debug == "true") { 
+        print "modified_enableresume=".$modified_enableresume . PHP_EOL; 
+    }
+    $exec = "/usr/bin/sudo ".$conf['scripts_abs']."/resume_play.sh -c=enableresume -d=".$modified_enableresume; // new and modified call of resume_play.sh
+    //$exec = "/usr/bin/sudo ".$conf['scripts_abs']."/resume_play.sh -c=enableresume -d=".preg_replace('/\s+/', '\ ',$urlparams['enableresume']); // original call of resume_play.sh
     exec($exec);
 
     /* redirect to drop all the url parameters */
@@ -538,7 +563,16 @@ if(isset($urlparams['enableresume']) && $urlparams['enableresume'] != "" && is_d
 if(isset($urlparams['disableresume']) && $urlparams['disableresume'] != "" && is_dir($Audio_Folders_Path."/".urldecode($urlparams['disableresume']))) {
     // pass folder to resume script
     // escape whitespaces with backslashes
-    $exec = "/usr/bin/sudo ".$conf['scripts_abs']."/resume_play.sh -c=disableresume -d=".preg_replace('/\s+/', '\ ',$urlparams['disableresume']);
+    // SC added the following lines to make resume work again, changes affect the folder_string $urlparams['enableresume']
+    // Note: This will allow normal function of the resume button in the webinterface for folder s with brackets in their name.
+    // Brackets of type "(", ")", "[", "]" are supported as album names often apear in form of "albumname - (year) - albumtitle"
+    $modified_disableresume = preg_replace('/\s+/', '\ ',$urlparams['disableresume']); // replace whitespaces with " "
+    $modified_disableresume = preg_replace('/\(/', '\(',$modified_disableresume); // replace "(" with with "\("
+    $modified_disableresume = preg_replace('/\)/', '\)',$modified_disableresume); // replace "(" with with "\)"
+    $modified_disableresume = preg_replace('/\[/', '\[',$modified_disableresume); // replace "(" with with "\["
+    $modified_disableresume = preg_replace('/\]/', '\]',$modified_disableresume); // replace "(" with with "\]"
+    $exec = "/usr/bin/sudo ".$conf['scripts_abs']."/resume_play.sh -c=disableresume -d=".$modified_disableresume; // new and modified call of resume_play.sh
+    //$exec = "/usr/bin/sudo ".$conf['scripts_abs']."/resume_play.sh -c=disableresume -d=".preg_replace('/\s+/', '\ ',$urlparams['disableresume']); // original call of resume_play.sh
     if($debug == "true") { 
         print "Command: ".$exec; 
     } else { 

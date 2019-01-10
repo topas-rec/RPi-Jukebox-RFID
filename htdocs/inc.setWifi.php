@@ -38,7 +38,7 @@ unset($exec);
 if($WIFIssid != $CONFssid || $WIFIpass != $CONFWIFIpass) {
     // make multiline bash
     $exec = "bash <<'END'
-sudo cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs//wpa_supplicant.conf.stretch-default2.sample /etc/wpa_supplicant/wpa_supplicant.conf
+sudo cp /home/pi/RPi-Jukebox-RFID/misc/sampleconfigs/wpa_supplicant.conf.stretch-default2.sample /etc/wpa_supplicant/wpa_supplicant.conf
 sudo sed -i 's/%WIFIssid%/'".$WIFIssid."'/' /etc/wpa_supplicant/wpa_supplicant.conf
 sudo sed -i 's/%WIFIpass%/'".$WIFIpass."'/' /etc/wpa_supplicant/wpa_supplicant.conf
 sudo chown root:netdev /etc/wpa_supplicant/wpa_supplicant.conf
@@ -96,7 +96,7 @@ if($debug == "true") {
             if(isset($WIFIpass) && $WIFIpass != "") {
                 print $WIFIpass;
             }
-          ?>" id="WIFIpass" name="WIFIpass" placeholder="" class="form-control input-md" type="text" required="required">
+          ?>" id="WIFIpass" name="WIFIpass" placeholder="" class="form-control input-md" type="password" required="required">
           <span class="help-block"></span>  
           </div>
         </div>

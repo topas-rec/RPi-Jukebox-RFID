@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-from gpiozero import Button
+from gpiozero import Button, LED
 from signal import pause
 from subprocess import check_call
+
+# This script will block any I2S DAC e.g. from Hifiberry, Justboom, ES9023, PCM5102A
+# due to the assignment of GPIO 19 and 21 to a buttons
 
 # 2018-10-31
 # Added the function on holding volume + - buttons to change the volume in 0.3s interval
@@ -17,6 +20,12 @@ from subprocess import check_call
 # If anybody has ideas or tests or experience regarding this solution, please create pull requests or contact me.
 
 def def_shutdown():
+    # Power led blinks two times - Tell listener we're going down.
+    pled.blink(on_time=0.3, off_time=0.3, n=2, background=False)
+    # Power led stays on until shutdown completes (when blinking it might be
+    # accidently off because it blinks and then cannot be controlled anymore.
+    # Pi looks like off too early. To avoid this switch it back on.
+    pled.on()
     check_call("./scripts/playout_controls.sh -c=shutdown", shell=True)
 
 def def_volU():
@@ -38,6 +47,7 @@ def def_halt():
     check_call("./scripts/playout_controls.sh -c=playerpause", shell=True)
 
 shut = Button(3, hold_time=2)
+pled = LED(7)
 vol0 = Button(13,pull_up=True)
 volU = Button(16,pull_up=True,hold_time=0.3,hold_repeat=True)
 volD = Button(19,pull_up=True,hold_time=0.3,hold_repeat=True)
@@ -56,5 +66,8 @@ volD.when_held = def_volD
 next.when_pressed = def_next
 prev.when_pressed = def_prev
 halt.when_pressed = def_halt
+
+# Power led running all the time
+pled.on()
 
 pause()
