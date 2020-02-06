@@ -180,7 +180,6 @@ If you like your Phoniebox, consider to [buy me a coffee](https://www.buymeacoff
 
 Here is a list of equipment needed. Chances are that you will find most of it in the back of your drawers or at the bottom of some shoe box. Well, most of it, possibly not the RFID reader itself. **Note: depending on individual projects, the hardware requirements vary.**
 
-* **Has to be returned** [USB Stereo Speaker Set (6 Watt, 3,5mm jack, USB-powered) black](https://www.notebooksbilliger.de/trust+leto+20+speaker+set+black/?nbb=pla.google_&wt_cc2=902-0001_Hardware_253868&gclid=EAIaIQobChMIzoaZ9J763gIVyqSaCh1hKAV1EAQYASABEgLAY_D_BwE) | This USB powered speaker set sounds good for its size, is good value for money and keeps this RPi project clean and without the need of a soldering iron :)
 * Switch to disconnect power consumers from power pack
 * Switch for switching off power for amplifier (for using headphones only)
 * **payed** Y audio cable for headphone outlet
