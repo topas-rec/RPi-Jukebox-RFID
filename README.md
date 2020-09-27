@@ -180,16 +180,33 @@ If you like your Phoniebox, consider to [buy me a coffee](https://www.buymeacoff
 
 Here is a list of equipment needed. Chances are that you will find most of it in the back of your drawers or at the bottom of some shoe box. Well, most of it, possibly not the RFID reader itself. **Note: depending on individual projects, the hardware requirements vary.**
 
+
+### Original
+
+* [Raspberry Pi 3 Model B ](https://amzn.to/2GEUjWK) | You might be surprised how easy and affordable you can get an RPi second hand. Think about the planet before you buy a new one.
+* [Raspberry Pi Zero W Starter Set ](http://amzn.to/2ku0PU7) | You might be surprised how easy and affordable you can get an RPi second hand. Think about the planet before you buy a new one.
+* RFID Card Reader (USB): [Neuftech USB RFID Reader ID](https://amzn.to/2RrqScm) using 125 kHz - make sure to buy compatible cards, RFID stickers or key fobs working with the same frequency as the reader. **Important notice:** the hardware of the reader that I had linked here for a long times seems to have changed and suddenly created problems with the Phoniebox installation. The reader listed now has worked and was recommended by two Phoniebox makers (2018 Oct 4). I can not guarantee that this will not change and invite you to give [RFID Reader feedback in this thread](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/231).  
+* [USB Stereo Speaker Set (6 Watt, 3,5mm jack, USB-powered) black](http://amzn.to/2kXrard) | This USB powered speaker set sounds good for its size, is good value for money and keeps this RPi project clean and without the need of a soldering iron :)
+* [USB A Male to Female Extenstion Cable with Switch On/Off](http://amzn.to/2hHrvkG) | I placed this USB extension between the USB power adapter and the Phoniebox. This will allow you to switch the Phoniebox on and off easily.
+* [USB 2.0 Hub 4-port bus powered USB Adapter](http://amzn.to/2kXeErv) | Depending on your setup, you will need none, one or two of these. If you are using the external USB powered speakers, you need one to make sure the speakers get enough power. If you want to use the additional USB soundcard and have an older RPi, you might need a second one to make sure you can connect enough devices with the RPi.
+* Arcade Buttons / Tasten / Schalter (one of these might suit you)
+    * [Arcade Buttons / Tasten / Schalter ](https://amzn.to/2QMxe9r) if you want buttons for the GPIO control.
+    * [Set: Arcade Buttons / Tasten / Schalter ](https://amzn.to/2T81JTZ) GPIO Extension Board Starter Kit including cables and breadboard.
+    * [Touch Sensor / Kapazitive Touch Tasten ](https://amzn.to/2Vc4ntx) these are not buttons to press but to touch as GPIO controls.
+
+
+### My personal shopping list
+
 * Switch to disconnect power consumers from power pack
 * Switch for switching off power for amplifier (for using headphones only)
-* **payed** Y audio cable for headphone outlet
+* **obtained** Y audio cable for headphone outlet
 * **obtained** Speaker cables
 * **obtained** sd card
 * **obtained** [raspberry pi 3 model b ](http://amzn.to/2ku0pu7) | you might be surprised how easy and affordable you can get an rpi second hand. think about the planet before you buy a new one.
 * **obtained** RFID Card Reader (USB): [Neuftech USB RFID Reader ID](https://www.ebay.de/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=Neuftech+USB+RFID+Reader+ID&_sacat=0) using 125 kHz - make sure to buy compatible cards, RFID stickers or key fobs working with the same frequency as the reader. **Important notice:** the hardware of the reader that I had linked here for a long times seems to have changed and suddenly created problems with the Phoniebox installation. The reader listed now has worked and was recommended by two Phoniebox makers (2018 Oct 4). I can not guarantee that this will not change and invite you to give [RFID Reader feedback in this thread](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/231).  
 * **obtained** JR45 socket for housing
-* **obtained** Six push buttons (<https://www.reichelt.de/drucktaster-0-2a-60vdc-1x-ein-beleuchtet-gn-t-9146-gn-p44434.html?> and <https://www.reichelt.de/arcade-button-mit-mikroschalter-gelb-arc-button-ye-p225321.html?>)
-* **obtained** Electric resistor for led (<https://www.reichelt.de/duennschichtwiderstand-axial-0-6-w-75-ohm-1-vi-mbb02070c7509-p233774.html?>)
+* **obtained** Six push buttons ([RAFI 106.1500: Drucktaster 0,5A-24VAC 1Ö - 1S Ø11 - 9,1mm LED gn bei reichelt elektronik](https://www.reichelt.de/drucktaster-0-5a-24vac-1-1s-11-9-1mm-led-gn-rafi-106-1500-p110896.html?&trstct=pos_7&nbc=1) and <https://www.reichelt.de/arcade-button-mit-mikroschalter-gelb-arc-button-ye-p225321.html?>)
+* **obtained** Electric resistor for led ([MPR 120: Widerstand, Metallschicht, 120 Ohm, 0207, 0,6, 0,1% bei reichelt elektronik](https://www.reichelt.de/widerstand-metallschicht-120-ohm-0207-0-6-0-1--mpr-120-p12791.html?&trstct=pos_2&nbc=1))
 * **obtained** 20 Jumper cables (<https://www.reichelt.de/entwicklerboards-steckbrueckenkabel-20-pole-m-m-f-f-f-m-25-debo-kabelset-p161046.html?>)
 * **obtained** Short network cable internal
 * **obtained** Broadband speaker FR 10HM (<https://www.reichelt.de/breitbandlautsprecher-fr-10hm-20-w-8-ohm-vis-fr-10hm-8-p66815.html?>)
